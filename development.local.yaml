@@ -3,23 +3,23 @@ server:
   env: dev
 
 redis:
-  host:
-  port:
-  username:
-  password:
-  db:
-  queueDB:
+  host: 127.0.0.1
+  port: 6379
+  username: 
+  password: 
+  db: 
+  queueDB: 
 
-mysql:
-  host:
-  port:
-  username:
-  password:
-  db:
+mysql: sql8519837@ec2-52-8-112-233.us-west-1.compute.amazonaws.com
+  host: sql8.freemysqlhosting.net
+  port: 3306
+  username: sql8519837
+  password: diA6BiZsBL
+  db: sql8519837
 
 jwt:
-  secret:
-  algorithms:
+  secret: https://jwt.io/#debugger-io?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+  algorithms: HS256
 
 website: https://flat-web-dev.whiteboard.agora.io
 
