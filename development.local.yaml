@@ -2,11 +2,11 @@ server:
   port: 80
   env: dev
 
-redis:
-  host: 127.0.0.1
-  port: 6379
+redis: redis://:p36e55272d8644f2dab3fb5001c0a4fc34a27c4893e6d7f1f73685962187103bd@ec2-63-33-188-61.eu-west-1.compute.amazonaws.com:19450
+  host: ec2-63-33-188-61.eu-west-1.compute.amazonaws.com
+  port: 19450
   username: 
-  password: 
+  password: p36e55272d8644f2dab3fb5001c0a4fc34a27c4893e6d7f1f73685962187103bd
   db: 
   queueDB: 
 
